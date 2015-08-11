@@ -2,52 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Municipalidad | Municipalidad</title>
+    <title>Galería de Fotos | Corlate</title>
 
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
     <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="Views/imagen1.jpg">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 
-<body class="homepage">
+
+<body>
+
 
     <header id="header">
         <div class="top-bar">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-xs-4">
+
+
                     </div>
-                    <div>
-                        <div class="col-sm-6 col-xs-4">
-                            <div class="social">
-                                <img src="~/assets/imagen/images.png" width="20" height="15" class="glyphicon-minus" />
-                                <ul class="social-share">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                </ul>
-                                <a href="#" class="btn btn-info btn-sm">Search</a>
-                                <input type="text" class="search-form" autocomplete="off">
-                            </div>
+                    <div class="col-sm-6 col-xs-4">
+                        <div class="social">
+                            <img src="~/assets/imagen/images.png" width="20" height="15" class="glyphicon-minus" />
+                            <ul class="social-share">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            </ul>
+                            <a href="#" class="btn btn-info btn-sm">Search</a>
+                            <input type="text" class="search-form" autocomplete="off">
+
+
                         </div>
                     </div>
                 </div>
-            </div><!--/.container-->
+            </div>
+        </div><!--/.container-->
         </div><!--/.top-bar-->
+
+
 
 
         <nav class="navbar navbar-inverse" role="banner">
@@ -69,51 +77,36 @@
                     <button type="button" class="btn btn-info btn-md">Ubicación</button>
                     <button type="button" class="btn btn-warning btn-md">Contacto</button>
 
-                    <li class="dropdown">
-
-
                 </div>
             </div><!--/.container-->
         </nav><!--/nav-->
 
     </header><!--/header-->
 
-    <section id="main-slider" class="row slide-margin">
-        <div class="carousel slide">
-            <ol class="carousel-indicators">
-                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-                <li data-target="#main-slider" data-slide-to="1"></li>
-                <li data-target="#main-slider" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-            </div>
+    <div class="row">
+        <div class="col-md-4">
+            <a>
+                <p>Galería de Fotos</p>
+                <img src="~/assets/imagen/imagen 1.jpg" /><img src="" style="width:150px;height:150px">
+                <img src="~/assets/imagen/imagen 10.jpg" /><img src="" style="width:150px;height:150px">
+                <img src="~/assets/imagen/imagen 2.jpg" /><img src="" style="width:150px;height:150px">
+                <img src="~/assets/imagen/imagen 3.jpg" /><img src="" style="width:150px;heigt:150px">
+                <img src="~/assets/imagen/imagen 4.jpg" /><img src="" style="width:150px;height:150px">
+                <img src="~/assets/imagen/imagen 5.jpg" /><img src="" style="width:150px;height:150px">
+                <img src="~/assets/imagen/imagen 6.jpg" /><img src="" style="width:150px;height:150px">
+                <img src="~/assets/imagen/imagen 7.jpg" /><img src="" style="width:150px;height:150px">
+                <img src="~/assets/imagen/imagen 8.jpg" /><img src="" style="width:150px;height:150px">
+                <img src="~/assets/imagen/imagen 9.jpg" /><img src="" style="width:150px;height:150px">
+            </a>
         </div>
-
-        <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
-            <div class="container">
-                <div class="row slide-margin">
-                    <div class="col-sm-6">
-                        <div class="carousel-content">
-                            <a href="#"><h1 class="animation animated-item-1">MUNICIPALIDAD DE LA CALERA</h1></a>
-                            <a href="##"> <h2 class="animation animated-item-2">Un pueblo que mira al futuro, con esperanza..</h2></a>
-                            @Styles.Render("~/Content/css")
-                            @Scripts.Render("~/bundles/modernizr")
-
-
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <a>
-                                        <img src="~/assets/imagen/imagen 2.jpg" alt="Calera" style="width:500px;height:250px">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
 </body>
 </html>
+
 
