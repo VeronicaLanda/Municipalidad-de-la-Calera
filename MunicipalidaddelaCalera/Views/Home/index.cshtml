@@ -34,16 +34,7 @@
                     <div class="col-sm-6 col-xs-4">
                     </div>
                     <div>
-                        <div class="col-sm-6 col-xs-4">
-                            <div class="social">
-                                <img src="~/assets/imagen/images.png" width="20" height="15" class="glyphicon-minus" />
-                                <ul class="social-share">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                </ul>
-                                <a href="#" class="btn btn-info btn-sm">Search</a>
-                                <input type="text" class="search-form" autocomplete="off">
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div><!--/.container-->
@@ -59,20 +50,22 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.html"> <img src="~/assets/imagen/image.jpg" width="50" height="50" class="glyphicon-minus" />  </a>
                 </div>
+                <div>
 
                 <div class="collapse navbar-collapse navbar-right">
+
+
                     <button type="button" class="btn btn-default btn-md">Inicio</button>
                     <button type="button" class="btn btn-primary btn-md">Información</button>
                     <button type="button" class="btn btn-success btn-md">Galeria de Fotos</button>
                     <button type="button" class="btn btn-info btn-md">Ubicación</button>
                     <button type="button" class="btn btn-warning btn-md">Contacto</button>
-
-                    <li class="dropdown">
-
-
                 </div>
+
+                    
+            </div>
             </div><!--/.container-->
         </nav><!--/nav-->
 
@@ -88,30 +81,33 @@
             <div class="carousel-inner">
             </div>
         </div>
+        <div class="container text-right" >
+            <div class="social">
+                <img src="~/assets/imagen/images.png" width="20" height="20" class="glyphicon-minus" />
+                <ul class="social-share">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+                <a href="#" class="btn btn-info btn-sm">Search</a>
+                <input type="text" class="search-form" autocomplete="off">
+            </div>
+        </div>
 
-        <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
+        <div class="item active" style="background-image: url(images/slider/bg1.jpg">
             <div class="container">
                 <div class="row slide-margin">
                     <div class="col-sm-6">
                         <div class="carousel-content">
-                            <a href="#"><h1 class="animation animated-item-1">MUNICIPALIDAD DE LA CALERA</h1></a>
-                            <a href="##"> <h2 class="animation animated-item-2">Un pueblo que mira al futuro, con esperanza..</h2></a>
                             @Styles.Render("~/Content/css")
                             @Scripts.Render("~/bundles/modernizr")
 
 
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <a>
-                                        <img src="~/assets/imagen/imagen 2.jpg" alt="Calera" style="width:500px;height:250px">
-                                    </a>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
 
 </body>
