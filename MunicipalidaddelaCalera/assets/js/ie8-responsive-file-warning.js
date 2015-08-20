@@ -1,4 +1,3 @@
-@@ -0,0 +1,13 @@
 // NOTICE!! DO NOT USE ANY OF THIS JAVASCRIPT
 // IT'S JUST JUNK FOR OUR DOCS!
 // ++++++++++++++++++++++++++++++++++++++++++

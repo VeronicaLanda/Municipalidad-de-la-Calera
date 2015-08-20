@@ -1,7 +1,10 @@
-﻿<div class="navbar-wrapper">
+﻿@{
+    var url = Request.Url.AbsolutePath.ToLower();
+}
+<div class="navbar-wrapper">
     <div class="container">
 
-        <nav class="navbar navbar-inverse navbar-static-top">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -10,18 +13,20 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#" &#60;head&#62;&#60; head&#62><b>Municipalidad de La Calera</b></a>
+                    <a class="navbar-brand" href="#" style="top: -13px;position: relative;">
+                        <img src="~/assets/imagen/logo.png" style="width:61px;pa"/>
+                    </a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="Principal">Principal</a></li>
-                        <li><a href="Archivos">Archivos</a></li>
+                        <li @(url == "/" ? "class=active" : "")><a href="/">Principal</a></li>
+                        <li><a href="/Home/Archivos" @(url.StartsWith("/home/archivos") ? "class=active" : "")>Archivos</a></li>
                         <li class="dropdown">
                             <a href="GaleriadeFotos" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galeria de Fotos <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="Deporte">Deporte</a></li>
-                                <li><a href="Viviendas">Viviendas</a></li>
-                                <li><a href="#">Something else here</a></li>
+                                <li @(url.StartsWith("/home/deporte") ? "class=active" : "")><a href="/Home/Deporte">Deporte</a></li>
+                                <li @(url.StartsWith("/home/viviendas") ? "class=active" : "")><a href="/Home/Viviendas">Viviendas</a></li>
+                                <li @(url == "/Home/Deporte" ? "class=active" : "")><a href="#">Something else here</a></li>
                                 <li role="separator" class="divider"></li>
                                 <li class="dropdown-header">Nav header</li>
                                 <li><a href="#">Separated link</a></li>
