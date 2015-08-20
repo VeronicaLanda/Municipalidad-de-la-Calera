@@ -1,0 +1,54 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Nebaris - Galeria</title>
+</head>
+<body>
+    <div id="divImagenes">
+        <img src="~/assets/imagen/image(10).jpg" class="glyphicon-minus" />
+        <img src="~/assets/imagen/image(11).jpg" class="glyphicon-minus" />
+        <img src="~/assets/imagen/image(12).jpg" class="glyphicon-minus" />
+        <img src="~/assets/imagen/image(13).jpg" class="glyphicon-minus" />
+        <img src="~/assets/imagen/image(14).jpg" class="glyphicon-minus" />
+        <img src="~/assets/imagen/image(15).jpg" class="glyphicon-minus" />
+        <img src="~/assets/imagen/image(16).jpg" class="glyphicon-minus" />
+        <img src="~/assets/imagen/image(17).jpg" class="glyphicon-minus" />
+        <img src="~/assets/imagen/image(18).jpg" class="glyphicon-minus" />
+        <img src="~/assets/imagen/image(19).jpg" class="glyphicon-minus" />
+        <img src="~/assets/imagen/image(20).jpg" class="glyphicon-minus" />
+        <img src="~/assets/imagen/image(21).jpg" class="glyphicon-minus" />
+        <img src="~/assets/imagen/image(22).jpg" class="glyphicon-minus" />
+        <img src="~/assets/imagen/image(3).jpg" class="glyphicon-minus" />
+        <img src="~/assets/imagen/image(24).jpg" class="glyphicon-minus" />
+        <img src="~/assets/imagen/image(30).jpg" class="glyphicon-minus" />
+        <img src="~/assets/imagen/image(28).jpg" class="glyphicon-minus" />
+        <img src="~/assets/imagen/image(29).jpg" class="glyphicon-minus" />
+        <img src="~/assets/imagen/image(2).jpg" class="glyphicon-minus" />
+        <img src="~/assets/imagen/image(32).jpg" class="glyphicon-minus" />
+    </div>
+</body>
+</html>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var milisegundos = 0;
+        //ocultamos todas las imágenes del div
+        $('#divImagenes img').hide();
+        //recorremos una por una
+        $('#divImagenes img').each(function () {
+            var imagen = this;
+            //setTimeout permite retrazar la ejecución de código
+            //el primer parámetro es el código a ejecutar
+            //y el segundo es el tiempo (en milisegundos) que tiene que esperar para ejecutarlo
+            setTimeout(function () {
+                //aplicamos la función fadeIn para que la imagen tarde 1 segundo en aparecer completamente
+                $(imagen).fadeIn(1000);
+            }, milisegundos)
+            //incrementamos la variable para que se vayan cargado de 1 por vez
+            milisegundos += 100
+        });
+    });
+</script>
+
+

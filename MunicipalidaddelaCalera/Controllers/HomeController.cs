@@ -12,19 +12,45 @@ namespace MunicipalidaddelaCalera.Controllers
         {
             return View();
         }
-
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
+        public ActionResult Contacto()
         {
             ViewBag.Message = "Your contact page.";
 
             return View();
         }
+
+        public ActionResult Archivos()
+        {
+            ViewBag.Message = "Your Archivos page.";
+
+            return View();
+        }
+        public ActionResult GaleriadeFotos()
+        {
+            ViewBag.Message = "Your Galeria de fotos page.";
+
+            return View();
+        }
+
+        public ActionResult Deporte()
+        {
+            ViewBag.Message = "Your Deporte page.";
+
+            return View();
+        }
+        public ActionResult Viviendas()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+
+
     }
+
+
+
+
+
 }
