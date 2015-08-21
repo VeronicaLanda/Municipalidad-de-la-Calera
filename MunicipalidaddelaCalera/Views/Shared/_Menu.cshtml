@@ -34,6 +34,8 @@
                             </ul>
                         <li @(url.StartsWith("/home/Contacto") ? "class=active" : "")><a href="/Home/Contacto">Contacto</a></li>
                     </ul>
+
+                    @Html.Partial("_LoginPartial")
                 </div>
             </div>
         </nav>
