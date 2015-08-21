@@ -14,7 +14,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#" style="top: -13px;position: relative;">
-                        <img src="~/assets/imagen/logo.png" style="width:61px;pa"/>
+                        <img src="~/assets/imagen/logo.png" style="width:61px" />
                     </a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
@@ -32,8 +32,7 @@
                                 <li><a href="#">Separated link</a></li>
                                 <li><a href="#">One more separated link</a></li>
                             </ul>
-                        <li><a href="Contacto">Contacto</a></li>
-                        </li>
+                        <li @(url.StartsWith("/home/Contacto") ? "class=active" : "")><a href="/Home/Contacto">Contacto</a></li>
                     </ul>
                 </div>
             </div>
