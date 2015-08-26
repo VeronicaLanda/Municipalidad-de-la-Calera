@@ -44,13 +44,12 @@ namespace MunicipalidaddelaCalera.Controllers
 
             return View();
         }
+        public ActionResult Post()
+        {
+            ViewBag.Message = "Your contact page.";
 
-
+            return View();
+        }
 
     }
-
-
-
-
-
 }

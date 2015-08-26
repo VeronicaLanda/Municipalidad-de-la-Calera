@@ -161,6 +161,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\NoticiasController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -224,26 +225,12 @@
     <Content Include="assets\imagen\image%2866%29.jpg" />
     <Content Include="assets\imagen\image%2867%29.jpg" />
     <Content Include="assets\imagen\image%2868%29.jpg" />
-    <Content Include="assets\imagen\image%2869%29.jpg" />
-    <Content Include="assets\imagen\image%287%29.jpg" />
-    <Content Include="assets\imagen\image%2870%29.jpg" />
-    <Content Include="assets\imagen\image%2871%29.jpg" />
-    <Content Include="assets\imagen\image%2872%29.jpg" />
     <Content Include="assets\imagen\image%2873%29.jpg" />
     <Content Include="assets\imagen\image%2874%29.jpg" />
     <Content Include="assets\imagen\image%2875%29.jpg" />
-    <Content Include="assets\imagen\image%2876%29.jpg" />
-    <Content Include="assets\imagen\image%2877%29.jpg" />
-    <Content Include="assets\imagen\image%2878%29.jpg" />
-    <Content Include="assets\imagen\image%2879%29.jpg" />
-    <Content Include="assets\imagen\image%288%29.jpg" />
-    <Content Include="assets\imagen\image%2880%29.jpg" />
-    <Content Include="assets\imagen\image%2881%29.jpg" />
-    <Content Include="assets\imagen\image%2882%29.jpg" />
-    <Content Include="assets\imagen\image%2883%29.jpg" />
-    <Content Include="assets\imagen\image%2884%29.jpg" />
     <Content Include="assets\imagen\image%289%29.jpg" />
     <Content Include="assets\imagen\image.jpg" />
+    <Content Include="assets\imagen\P1190350.JPG" />
     <Content Include="assets\js\ie-emulation-modes-warning.js" />
     <Content Include="assets\js\ie10-viewport-bug-workaround.js" />
     <Content Include="assets\js\ie8-responsive-file-warning.js" />
@@ -410,6 +397,9 @@
     <Content Include="Views\Account\SendCode.cshtml" />
     <Content Include="Views\Account\VerifyCode.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Noticias\Vivienda.cshtml" />
+    <Content Include="Views\Noticias\Convenios.cshtml" />
+    <Content Include="Views\Noticias\Obras.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
