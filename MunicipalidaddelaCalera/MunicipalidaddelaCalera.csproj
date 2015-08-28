@@ -181,6 +181,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\carousel\carousel.css" />
+    <Content Include="assets\imagen\CLUB.jpg" />
     <Content Include="assets\imagen\image%281%29.jpg" />
     <Content Include="assets\imagen\image%2810%29.jpg" />
     <Content Include="assets\imagen\image%2811%29.jpg" />
@@ -235,6 +236,7 @@
     <Content Include="assets\imagen\image%289%29.jpg" />
     <Content Include="assets\imagen\image.jpg" />
     <Content Include="assets\imagen\P1190350.JPG" />
+    <Content Include="assets\imagen\TERMOSOLAR.jpg" />
     <Content Include="assets\js\ie-emulation-modes-warning.js" />
     <Content Include="assets\js\ie10-viewport-bug-workaround.js" />
     <Content Include="assets\js\ie8-responsive-file-warning.js" />
